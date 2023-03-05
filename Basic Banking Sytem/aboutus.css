@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",cambria;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+body{
+    min-height: 80vh;
+    display: flex;
+     background-color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-section{
+    background-size: 55%;
+    background-color:#ffffff;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 50%;
+    float: left;
+    background: #ffffff;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color:white;
+	background-color: none;
+}
+
+.text{
+    font-size: 15px;
+    color:white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+	background-color: none;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.about_wrapper .container .row .navbar-brand-2 img{
+    margin-left: -150px;
+    display: flex;
+    margin-top: 50px;
+} 
+
+.about_wrapper .container .row .class1 {
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.about_wrapper .container .row .class1 h6{
+    font-size: 100px;
+}
+
+.about_wrapper .container .row1{
+    margin-left: -700px;
+    margin-top: 300px;
+}
+
+.about_wrapper .container .row1 h6{
+    font-size: 100px;
+}
+
+.about_wrapper .container .row .navbar-brand-3 img{
+    margin-left: 1250px;
+    margin-top: -400px;
+}
+
+.about_wrapper .container .row .navbar-brand-4 img{
+    margin-left: -200px;
+}
+
+.about_wrapper .container .row2{
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+.about_wrapper .container .row2 h6{
+    font-size: 100px;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about_wrapper{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .container{
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .about_wrapper{
+        background-size: 100%;
+        padding: 100px 40px;
+        margin-bottom: 200px;
+    }
+    .container{
+        width: 100%;
+    } 
+}    
